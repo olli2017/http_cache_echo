@@ -1,0 +1,10 @@
+version: '3'
+
+services:
+  cache-http:
+    build: .
+    ports:
+    - 2000:65432
+
+  redis:
+    image: "redis:alpine"
