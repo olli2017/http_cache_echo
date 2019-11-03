@@ -2,6 +2,8 @@
 **docker-compose build** - собрать  
 **docker-compose up** - запустить  
 
+сервер на порте 2000: http://localhost:2000  
+
 curl example:  
 запись значения по ключу key  
 curl -i -d "VALUE" -X POST http://localhost:2000/key  
